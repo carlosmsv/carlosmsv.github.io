@@ -50,7 +50,7 @@ export default function AboutPage() {
                 <div className="w-96 h-96 rounded-full overflow-hidden bg-gray-700">
                   <img
                     src="/blog-placeholder-about.jpg"
-                    alt="Jucelito Silva"
+                    alt="Carlos Viana"
                     className="w-full h-full object-cover"
                   />
                 </div>

@@ -75,7 +75,11 @@ export default function HeroSection() {
           </div>
 
           <div className="flex gap-6">
-            <a href="https://www.linkedin.com/in/carlosmsv/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/carlosmsv/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button variant="primary">
                 <span className="font-display font-semibold text-lg">
                   Contact me
