@@ -14,9 +14,11 @@ export default function ContactSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <Button variant="primary">
-            <span className="text-lg">Contact me</span>
-          </Button>
+          <a href="https://www.linkedin.com/in/carlosmsv/" target="_blank" rel="noopener noreferrer">
+            <Button variant="primary">
+              <span className="text-lg">Contact me</span>
+            </Button>
+          </a>
           <a href="/resume.pdf" download="Resume - Carlos Viana.pdf">
             <Button variant="secondary">
               <span className="text-lg">Download my resume</span>

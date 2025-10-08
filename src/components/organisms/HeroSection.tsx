@@ -11,6 +11,7 @@ export default function HeroSection() {
     "AWS",
     "HTML5",
     "CSS",
+    "Tailwind CSS",
   ];
 
   return (
@@ -74,11 +75,13 @@ export default function HeroSection() {
           </div>
 
           <div className="flex gap-6">
-            <Button variant="primary">
-              <span className="font-display font-semibold text-lg">
-                Contact me
-              </span>
-            </Button>
+            <a href="https://www.linkedin.com/in/carlosmsv/" target="_blank" rel="noopener noreferrer">
+              <Button variant="primary">
+                <span className="font-display font-semibold text-lg">
+                  Contact me
+                </span>
+              </Button>
+            </a>
             <a href="/resume.pdf" download="Resume - Carlos Viana.pdf">
               <Button variant="secondary">
                 <span className="font-display font-semibold text-lg">
