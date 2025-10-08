@@ -79,11 +79,13 @@ export default function HeroSection() {
                 Contact me
               </span>
             </Button>
-            <Button variant="secondary">
-              <span className="font-display font-semibold text-lg">
-                Download my resume
-              </span>
-            </Button>
+            <a href="/resume.pdf" download="Resume - Carlos Viana.pdf">
+              <Button variant="secondary">
+                <span className="font-display font-semibold text-lg">
+                  Download my resume
+                </span>
+              </Button>
+            </a>
           </div>
 
           {/* Skills with modern styling */}

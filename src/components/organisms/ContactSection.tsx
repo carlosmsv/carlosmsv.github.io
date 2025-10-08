@@ -17,9 +17,11 @@ export default function ContactSection() {
           <Button variant="primary">
             <span className="text-lg">Contact me</span>
           </Button>
-          <Button variant="secondary">
-            <span className="text-lg">Download my resume</span>
-          </Button>
+          <a href="/resume.pdf" download="Resume - Carlos Viana.pdf">
+            <Button variant="secondary">
+              <span className="text-lg">Download my resume</span>
+            </Button>
+          </a>
         </div>
 
         <div className="mt-16 pt-12 border-t border-slate-800">
