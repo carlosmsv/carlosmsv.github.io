@@ -72,14 +72,6 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/blog"
-                  className="text-gray-400 text-lg hover:text-orange-400 transition-colors duration-300"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
                   href="#portfolio"
                   className="text-gray-400 text-lg hover:text-orange-400 transition-colors duration-300"
                 >

@@ -40,11 +40,6 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
             <span className="font-sans text-lg">About</span>
             <span className="font-mono text-lg text-purple-400">]</span>
           </NavigationLink>
-          <NavigationLink href="/blog" isActive={currentPath === "/blog"}>
-            <span className="font-mono text-lg text-emerald-400">[</span>
-            <span className="font-sans text-lg">Blog</span>
-            <span className="font-mono text-lg text-emerald-400">]</span>
-          </NavigationLink>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -99,15 +94,6 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
               <span className="font-mono text-lg text-purple-400">[</span>
               <span className="font-sans text-lg mx-2">Sobre</span>
               <span className="font-mono text-lg text-purple-400">]</span>
-            </NavigationLink>
-            <NavigationLink
-              href="/blog"
-              isActive={currentPath === "/blog"}
-              className="block py-2"
-            >
-              <span className="font-mono text-lg text-emerald-400">[</span>
-              <span className="font-sans text-lg mx-2">Blog</span>
-              <span className="font-mono text-lg text-emerald-400">]</span>
             </NavigationLink>
           </nav>
         </div>
