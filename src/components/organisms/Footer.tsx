@@ -70,14 +70,6 @@ export default function Footer() {
                   About
                 </a>
               </li>
-              <li>
-                <a
-                  href="#portfolio"
-                  className="text-gray-400 text-lg hover:text-orange-400 transition-colors duration-300"
-                >
-                  Portfolio
-                </a>
-              </li>
             </ul>
           </div>
 
