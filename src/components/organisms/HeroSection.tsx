@@ -8,10 +8,9 @@ export default function HeroSection() {
     "Node.js",
     "TypeScript",
     "Javascript",
-    "AWS",
-    "HTML5",
-    "CSS",
+    "Python",
     "Tailwind CSS",
+    "AWS",
   ];
 
   return (

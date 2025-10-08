@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ServiceCard from "../molecules/ServiceCard";
 
 // Ícones SVG simples para os serviços
@@ -20,7 +20,46 @@ const HostingIcon = () => (
   </svg>
 );
 
+const serviceContent = {
+  react: {
+    title: "React Applications",
+    description:
+      "Expert in building modern, performant React applications with advanced state management, hooks, and component architecture. Specialized in creating scalable single-page applications with optimal user experience and TypeScript integration.",
+    stats: [
+      { value: "20+", label: "React Projects" },
+      { value: "100%", label: "TypeScript Adoption" },
+      { value: "6+", label: "Years with React" },
+    ],
+  },
+  node: {
+    title: "Node.js Development",
+    description:
+      "Building robust backend systems and APIs with Node.js and Express. Experienced in microservices architecture, database design, authentication systems, and creating high-performance server-side applications.",
+    stats: [
+      { value: "20+", label: "Backend Projects" },
+      { value: "5+", label: "Databases Used" },
+      { value: "6+", label: "Years with Node.js" },
+    ],
+  },
+  ai: {
+    title: "AI Integration",
+    description:
+      "Integrating cutting-edge AI technologies into web applications. Experience with machine learning models, natural language processing, AI-powered features, and creating intelligent solutions that enhance user experiences and business outcomes.",
+    stats: [
+      { value: "5+", label: "AI Projects" },
+      { value: "10+", label: "AI Features Built" },
+      { value: "3+", label: "AI Models Integrated" },
+    ],
+  },
+};
+
 export default function ServicesSection() {
+  const [activeService, setActiveService] = useState<"react" | "node" | "ai">(
+    "react"
+  );
+
+  const content = serviceContent[activeService];
+
   return (
     <section className="bg-slate-900 py-24 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -36,16 +75,36 @@ export default function ServicesSection() {
             <div className="absolute left-7 top-68 w-3 h-3 bg-orange-500 rounded-full"></div>
 
             <div className="pl-20 space-y-6">
-              <ServiceCard
-                icon={<WebsiteIcon />}
-                title="Website Development"
-                isActive={true}
-              />
-              <ServiceCard icon={<AppIcon />} title="React Applications" />
-              <ServiceCard
-                icon={<HostingIcon />}
-                title="Frontend Consulting"
-              />
+              <div
+                onClick={() => setActiveService("react")}
+                className="cursor-pointer"
+              >
+                <ServiceCard
+                  icon={<AppIcon />}
+                  title="React Applications"
+                  isActive={activeService === "react"}
+                />
+              </div>
+              <div
+                onClick={() => setActiveService("node")}
+                className="cursor-pointer"
+              >
+                <ServiceCard
+                  icon={<HostingIcon />}
+                  title="Node.js Development"
+                  isActive={activeService === "node"}
+                />
+              </div>
+              <div
+                onClick={() => setActiveService("ai")}
+                className="cursor-pointer"
+              >
+                <ServiceCard
+                  icon={<WebsiteIcon />}
+                  title="AI Integration"
+                  isActive={activeService === "ai"}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -53,41 +112,29 @@ export default function ServicesSection() {
         {/* Right Content - About Me */}
         <div className="space-y-10">
           <h2 className="text-white text-6xl font-display font-bold">
-            About me
+            {content.title}
           </h2>
 
           <p className="text-gray-400 text-xl leading-relaxed">
-            Full-Stack Developer with 6+ years of experience specializing in React, 
-            TypeScript, and Node.js, with a strong emphasis on designing and delivering 
-            high-availability, scalable frontend and backend solutions. 
+            {content.description}
           </p>
 
           {/* Statistics */}
           <div className="grid grid-cols-3 gap-10 pt-12">
-            <div className="text-center">
-              <div className="text-5xl font-display font-bold text-white mb-3">
-                120 <span className="text-orange-500">+</span>
+            {content.stats.map((stat, index) => (
+              <div key={index} className="text-center">
+                <div className="text-5xl font-display font-bold text-white mb-3">
+                  {stat.value.replace(/[+%]/g, "")}{" "}
+                  <span className="text-orange-500">
+                    {stat.value.match(/[+%]/)?.[0]}
+                  </span>
+                </div>
+                <div className="text-gray-400 text-lg">{stat.label}</div>
               </div>
-              <div className="text-gray-400 text-lg">Completed Projects</div>
-            </div>
-
-            <div className="text-center">
-              <div className="text-5xl font-display font-bold text-white mb-3">
-                95 <span className="text-orange-500">%</span>
-              </div>
-              <div className="text-gray-400 text-lg">Customer Satisfaction</div>
-            </div>
-
-            <div className="text-center">
-              <div className="text-5xl font-display font-bold text-white mb-3">
-                10 <span className="text-orange-500">+</span>
-              </div>
-              <div className="text-gray-400 text-lg">Years of Experience</div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
     </section>
   );
 }
-
