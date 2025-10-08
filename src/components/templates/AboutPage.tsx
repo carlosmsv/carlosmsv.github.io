@@ -26,21 +26,24 @@ export default function AboutPage() {
                 My Journey
               </h2>
               <p className="text-gray-400 text-xl leading-relaxed">
-                I started my journey in development through photography. Through
-                it, I learned to love the process of creating from scratch.
-                Since then, this led me to software development, as it satisfies
-                my love for learning and building things.
+                I hold a degree in Information Technology and began my career
+                teaching programming and robotics to children and teenagers,
+                which ignited my passion for technology and education. This
+                experience taught me the importance of clear communication and
+                breaking down complex concepts.
               </p>
               <p className="text-gray-400 text-xl leading-relaxed">
-                With over 6 years of experience in web development, I've had the
-                privilege of working with startups and established companies,
-                helping them bring their digital visions to life through clean,
-                efficient, and scalable code.
+                After graduating, I transitioned into professional software
+                development, where I've spent over 6 years building scalable
+                solutions across diverse industries—from e-learning platforms
+                and government systems to AI-powered applications and
+                microservices architectures.
               </p>
               <p className="text-gray-400 text-xl leading-relaxed">
                 I specialize in modern JavaScript frameworks, particularly React
-                and Node.js, and I'm passionate about creating responsive,
-                accessible, and high-performance web applications.
+                and Node.js, with expertise in AI integration, cloud
+                infrastructure, and delivering high-performance, user-centered
+                web applications that drive real business impact.
               </p>
             </div>
 
