@@ -85,7 +85,10 @@ export default function HeroSection() {
                 </span>
               </Button>
             </a>
-            <a href="/resume.pdf" download="Resume - Carlos Viana.pdf">
+            <a
+              href="/carlos-viana-resume.pdf"
+              download="Resume - Carlos Viana.pdf"
+            >
               <Button variant="secondary">
                 <span className="font-display font-semibold text-lg">
                   Download my resume
