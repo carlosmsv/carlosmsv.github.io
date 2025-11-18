@@ -5,13 +5,15 @@ export default function ContactSection() {
   return (
     <section className="bg-slate-900 py-24 px-6">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-white text-6xl font-display font-bold mb-8">
-          Lets work together
-        </h2>
-        <p className="text-gray-400 text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
-          Got a project in mind? I'd love to hear about it. Let's discuss how we
-          can bring your ideas to life.
-        </p>
+        <div className="text-center mb-12">
+          <h2 className="text-white text-6xl font-display font-bold mb-4">
+            Let's Connect
+          </h2>
+          <p className="text-gray-400 text-xl max-w-2xl mx-auto leading-relaxed">
+            Have a project in mind, or just want to chat? I'd love to hear from
+            you.
+          </p>
+        </div>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <a

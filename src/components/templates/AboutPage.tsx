@@ -26,24 +26,26 @@ export default function AboutPage() {
                 My Journey
               </h2>
               <p className="text-gray-400 text-xl leading-relaxed">
-                I hold a degree in Information Technology and began my career
-                teaching programming and robotics to children and teenagers,
-                which ignited my passion for technology and education. This
-                experience taught me the importance of clear communication and
-                breaking down complex concepts.
-              </p>
-              <p className="text-gray-400 text-xl leading-relaxed">
-                After graduating, I transitioned into professional software
-                development, where I've spent over 6 years building scalable
-                solutions across diverse industries—from e-learning platforms
-                and government systems to AI-powered applications and
-                microservices architectures.
-              </p>
-              <p className="text-gray-400 text-xl leading-relaxed">
                 I specialize in modern JavaScript frameworks, particularly React
                 and Node.js, with expertise in AI integration, cloud
                 infrastructure, and delivering high-performance, user-centered
                 web applications that drive real business impact.
+              </p>
+              <p className="text-gray-400 text-xl leading-relaxed">
+                I hold a degree in Information Technology and began my career
+                teaching programming and robotics to children and teenagers,
+                which ignited my passion for technology and education. This
+                experience taught me the importance of clear communication and
+                breaking down complex concepts. After graduating, I transitioned
+                into professional software development, where I've spent over 6
+                years building scalable solutions across diverse industries,
+                from e-learning platforms and government systems to AI-powered
+                applications and microservices architectures.
+              </p>
+              <p className="text-gray-400 text-xl leading-relaxed">
+                I'm always looking for new challenges and opportunities to
+                expand my skillset and contribute to the next level of digital
+                experiences.
               </p>
             </div>
 
@@ -52,7 +54,7 @@ export default function AboutPage() {
                 <div className="w-96 h-96 bg-orange-500 rounded-full absolute -z-10 top-4 left-4"></div>
                 <div className="w-96 h-96 rounded-full overflow-hidden bg-gray-700">
                   <img
-                    src="/blog-placeholder-about.jpg"
+                    src="/about-me.jpg"
                     alt="Carlos Viana"
                     className="w-full h-full object-cover"
                   />
@@ -147,7 +149,7 @@ export default function AboutPage() {
                 TangoCode - Chicago, IL (Remote)
               </h4>
               <p className="text-gray-400 text-xl leading-relaxed">
-                Developing a platform leveraging AI to deliver advanced analysis
+                Developing platforms leveraging AI to deliver advanced analysis
                 and actionable insights for clients. Integrated machine learning
                 models to automate data processing and enhance decision-making
                 accuracy. Refactored and optimized key components to improve
