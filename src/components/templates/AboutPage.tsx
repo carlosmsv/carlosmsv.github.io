@@ -224,7 +224,7 @@ export default function AboutPage() {
                   Full-Stack Developer
                 </h3>
                 <span className="text-orange-500 font-medium text-xl">
-                  Apr 2021 - Aug 2022
+                  Apr 2021 - Feb 2023
                 </span>
               </div>
               <h4 className="text-gray-300 text-2xl mb-4">

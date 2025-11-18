@@ -119,7 +119,7 @@ export default function HeroSection() {
         </div>
 
         {/* Right Content - Profile Image with modern effects */}
-        <div className="flex justify-center lg:justify-end relative">
+        <div className="flex justify-center relative">
           <div className="relative group">
             {/* Glowing circle */}
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-orange-500 via-cyan-500 to-purple-500 opacity-50 blur-md animate-spin-slow"></div>
