@@ -107,7 +107,7 @@ export default function HeroSection() {
                 <div key={index} className="group">
                   <SkillBadge
                     name={skill}
-                    className="font-mono text-xl text-gray-300 hover:text-orange-400 transition-all duration-300 cursor-pointer
+                    className="font-mono text-xl text-gray-300 hover:text-orange-400 transition-all duration-300 cursor-default
                               border border-slate-700 hover:border-orange-500/50 px-4 py-3 rounded-lg
                               bg-slate-800/50 hover:bg-slate-800 backdrop-blur-sm
                               hover:shadow-lg hover:shadow-orange-500/20 hover:scale-105"
@@ -137,13 +137,13 @@ export default function HeroSection() {
             </div>
 
             {/* Decorative code elements */}
-            <div className="absolute -top-12 -right-12 text-orange-500 text-6xl opacity-60 font-mono animate-bounce">
+            <div className="absolute -top-12 -right-6 text-orange-500 text-6xl opacity-60 font-mono animate-bounce">
               &lt;/&gt;
             </div>
-            <div className="absolute -bottom-12 -left-12 text-cyan-500 text-6xl opacity-60 font-mono animate-bounce delay-500">
-              {}
+            <div className="absolute -bottom-1 -left-8 text-cyan-500 text-6xl opacity-60 font-mono animate-float">
+              {"{}"}
             </div>
-            <div className="absolute top-1/2 -right-16 text-purple-500 text-5xl opacity-60 font-mono animate-pulse">
+            <div className="absolute top-1/3 -right-8 text-purple-500 text-5xl opacity-60 font-mono animate-ping">
               [ ]
             </div>
           </div>

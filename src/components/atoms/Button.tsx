@@ -14,7 +14,7 @@ export default function Button({
   className = "",
 }: ButtonProps) {
   const baseClasses =
-    "px-10 py-5 font-display font-semibold text-lg transition-all duration-300 cursor-pointer relative overflow-hidden group";
+    "px-6 py-5 font-display font-semibold text-lg transition-all duration-300 cursor-pointer relative overflow-hidden group";
 
   const variantClasses = {
     primary: `
