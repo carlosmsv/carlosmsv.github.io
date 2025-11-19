@@ -62,7 +62,7 @@ export default function HeroSection() {
               </div>
               <div>
                 <span className="text-purple-400">let</span>{" "}
-                <span className="text-cyan-400">experience</span> ={" "}
+                <span className="text-cyan-400">yearsOfExperience</span> ={" "}
                 <span className="text-orange-400">6</span>;
               </div>
               <div>
