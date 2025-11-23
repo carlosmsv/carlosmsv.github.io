@@ -8,10 +8,10 @@ export default function AboutPage() {
       <Header currentPath="/about" />
 
       {/* Hero Section */}
-      <section className="bg-slate-900 py-24 px-6">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-20">
-            <h1 className="text-white text-8xl font-display font-bold mb-8">
+      <section className="bg-slate-900 py-8 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <h1 className="text-white text-5xl font-display font-bold mb-8">
               About Me
             </h1>
             <p className="text-gray-400 text-2xl leading-relaxed">
@@ -20,9 +20,9 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 items-center mb-24">
             <div className="space-y-8">
-              <h2 className="text-white text-5xl font-display font-bold">
+              <h2 className="text-white text-3xl font-display font-bold">
                 My Journey
               </h2>
               <p className="text-gray-400 text-xl leading-relaxed">
@@ -32,12 +32,7 @@ export default function AboutPage() {
                 web applications that drive real business impact.
               </p>
               <p className="text-gray-400 text-xl leading-relaxed">
-                I hold a degree in Information Technology and began my career
-                teaching programming and robotics to children and teenagers,
-                which ignited my passion for technology and education. This
-                experience taught me the importance of clear communication and
-                breaking down complex concepts. After graduating, I transitioned
-                into professional software development, where I've spent over 6
+                I hold a degree in Information Technology and I've spent over 6
                 years building scalable solutions across diverse industries,
                 from e-learning platforms and government systems to AI-powered
                 applications and microservices architectures.
@@ -51,8 +46,7 @@ export default function AboutPage() {
 
             <div className="flex justify-center">
               <div className="relative">
-                <div className="w-96 h-96 bg-orange-500 rounded-full absolute -z-10 top-4 left-4"></div>
-                <div className="w-96 h-96 rounded-full overflow-hidden bg-gray-700">
+                <div className="w-80 h-80 rounded-full overflow-hidden bg-gray-700">
                   <img
                     src="/about-me.jpg"
                     alt="Carlos Viana"
