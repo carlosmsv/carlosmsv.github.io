@@ -10,8 +10,8 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="bg-slate-900 py-8 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-14">
-            <h1 className="text-white text-5xl font-display font-bold mb-8">
+          <div className="text-center mb-10">
+            <h1 className="text-white text-6xl font-display font-bold mb-8">
               About Me
             </h1>
             <p className="text-gray-400 text-2xl leading-relaxed">
