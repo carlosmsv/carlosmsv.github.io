@@ -71,8 +71,8 @@ export default function ServicesSection() {
 
             {/* Orange dots */}
             <div className="absolute left-7 top-12 w-3 h-3 bg-orange-500 rounded-full"></div>
-            <div className="absolute left-7 top-40 w-3 h-3 bg-orange-500 rounded-full"></div>
-            <div className="absolute left-7 top-68 w-3 h-3 bg-orange-500 rounded-full"></div>
+            <div className="absolute left-7 top-[11.625rem] w-3 h-3 bg-orange-500 rounded-full"></div>
+            <div className="absolute left-7 top-81 w-3 h-3 bg-orange-500 rounded-full"></div>
 
             <div className="pl-20 space-y-6">
               <div
