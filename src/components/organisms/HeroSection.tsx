@@ -122,10 +122,10 @@ export default function HeroSection() {
         <div className="flex justify-center relative">
           <div className="relative group">
             {/* Glowing circle */}
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-orange-500 via-cyan-500 to-purple-500 opacity-50 blur-md animate-spin-slow"></div>
+            <div className="absolute inset-4 rounded-full bg-gradient-to-r from-orange-500 via-cyan-500 to-purple-500 opacity-50 blur-md animate-spin-slow"></div>
 
             {/* Orange circle background with glow */}
-            <div className="w-96 h-96 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full absolute -z-10 top-4 left-4 blur-sm opacity-80 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="w-80 h-80 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full absolute -z-10 top-4 left-4 blur-sm opacity-80 group-hover:opacity-100 transition-opacity duration-500"></div>
 
             {/* Profile Image */}
             <div className="overflow-hidden flex items-center justify-center relative z-10 transition-all duration-500">
