@@ -83,7 +83,7 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
               className="block py-2"
             >
               <span className="font-mono text-lg text-cyan-400">[</span>
-              <span className="font-sans text-lg mx-2">Início</span>
+              <span className="font-sans text-lg mx-2">Home</span>
               <span className="font-mono text-lg text-cyan-400">]</span>
             </NavigationLink>
             <NavigationLink
@@ -92,7 +92,7 @@ export default function Header({ currentPath = "/" }: HeaderProps) {
               className="block py-2"
             >
               <span className="font-mono text-lg text-purple-400">[</span>
-              <span className="font-sans text-lg mx-2">Sobre</span>
+              <span className="font-sans text-lg mx-2">About</span>
               <span className="font-mono text-lg text-purple-400">]</span>
             </NavigationLink>
           </nav>
