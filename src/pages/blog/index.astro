@@ -12,7 +12,7 @@ const posts = (await getCollection('blog')).sort(
 <!doctype html>
 <html lang="pt-BR">
 	<head>
-		<BaseHead title="Blog - Jucelito Silva" description="Leia meus últimos pensamentos e tutoriais sobre desenvolvimento web e tecnologia." />
+		<BaseHead title="Blog" description="Leia meus últimos pensamentos e tutoriais sobre desenvolvimento web e tecnologia." />
 	</head>
 	<body>
 		<BlogPage posts={posts} client:load />
