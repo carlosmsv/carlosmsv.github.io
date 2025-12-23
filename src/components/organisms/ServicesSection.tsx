@@ -28,7 +28,7 @@ const serviceContent = {
     stats: [
       { value: "20+", label: "React Projects" },
       { value: "100%", label: "TypeScript Adoption" },
-      { value: "6+", label: "Years with React" },
+      { value: "7", label: "Years with React" },
     ],
   },
   node: {
@@ -38,7 +38,7 @@ const serviceContent = {
     stats: [
       { value: "20+", label: "Backend Projects" },
       { value: "5+", label: "Databases Used" },
-      { value: "6+", label: "Years with Node.js" },
+      { value: "7", label: "Years with Node.js" },
     ],
   },
   ai: {

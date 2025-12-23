@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
             <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-md">
               Full-Stack Developer specialized in React, Node.js and modern
-              technologies. Over 6 years of professional experience.
+              technologies. Over 7 years of professional experience.
             </p>
             <div className="flex gap-6">
               <a
