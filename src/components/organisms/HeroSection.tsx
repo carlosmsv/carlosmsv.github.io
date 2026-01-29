@@ -44,11 +44,11 @@ export default function HeroSection() {
             <div className="space-y-4 gap-4">
               <h3 className="text-white text-6xl font-display font-bold tracking-tight leading-tight">
                 <span className="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-                  Full-Stack
+                  Software
                   <br />
                 </span>
                 <span className="bg-gradient-to-r from-orange-500 via-cyan-500 to-purple-500 bg-clip-text text-transparent text-glow">
-                  Developer
+                  Engineer
                 </span>
               </h3>
             </div>

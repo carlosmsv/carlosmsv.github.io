@@ -15,8 +15,8 @@ export default function AboutPage() {
               About Me
             </h1>
             <p className="text-gray-400 text-2xl leading-relaxed">
-              Full-Stack Developer passionate about creating beautiful,
-              functional, and user-centered digital experiences.
+              Software Engineer passionate about creating beautiful, functional,
+              and user-centered digital experiences.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ export default function AboutPage() {
                 web applications that drive real business impact.
               </p>
               <p className="text-gray-400 text-xl leading-relaxed">
-                I hold a degree in Information Technology and I've spent over 6
+                I hold a degree in Information Technology and I've spent over 7
                 years building scalable solutions across diverse industries,
                 from e-learning platforms and government systems to AI-powered
                 applications and microservices architectures.

@@ -13,8 +13,8 @@ export default function Footer() {
               <span className="text-orange-500 font-mono text-lg">/&gt;</span>
             </div>
             <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-md">
-              Full-Stack Developer specialized in React, Node.js and modern
-              technologies. Over 7 years of professional experience.
+              Software Engineer (Full-Stack) specialized in React, Node.js and
+              modern technologies. Over 7 years of professional experience.
             </p>
             <div className="flex gap-6">
               <a

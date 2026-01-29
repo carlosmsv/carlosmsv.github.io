@@ -28,7 +28,7 @@ const serviceContent = {
     stats: [
       { value: "20+", label: "React Projects" },
       { value: "100%", label: "TypeScript Adoption" },
-      { value: "7", label: "Years with React" },
+      { value: "7+", label: "Years with React" },
     ],
   },
   node: {
@@ -38,7 +38,7 @@ const serviceContent = {
     stats: [
       { value: "20+", label: "Backend Projects" },
       { value: "5+", label: "Databases Used" },
-      { value: "7", label: "Years with Node.js" },
+      { value: "7+", label: "Years with Node.js" },
     ],
   },
   ai: {
@@ -55,7 +55,7 @@ const serviceContent = {
 
 export default function ServicesSection() {
   const [activeService, setActiveService] = useState<"react" | "node" | "ai">(
-    "react"
+    "react",
   );
 
   const content = serviceContent[activeService];
