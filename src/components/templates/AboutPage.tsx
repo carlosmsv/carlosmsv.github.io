@@ -48,7 +48,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="w-80 h-80 rounded-full overflow-hidden bg-gray-700">
                   <img
-                    src="/about-me.jpg"
+                    src="/about-me.png"
                     alt="Carlos Viana"
                     className="w-full h-full object-cover"
                   />
