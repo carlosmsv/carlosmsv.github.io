@@ -130,13 +130,52 @@ export default function AboutPage() {
           </h2>
 
           <div className="space-y-16">
+
+          <div className="border-l-4 border-orange-500 pl-10">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+                <h3 className="text-white text-3xl font-display font-bold">
+                  Software Engineer
+                </h3>
+                <span className="text-orange-500 font-medium text-xl">
+                  Mar 2026 - Present
+                </span>
+              </div>
+              <h4 className="text-gray-300 text-2xl mb-4">
+                OneClick Code - Denver, CO (Remote)
+              </h4>
+              <p className="text-gray-400 text-xl leading-relaxed">
+                Shipped AI-powered products end to end from scratch to
+                production on AWS, delivering advanced analysis and actionable
+                insights. Partnered with researchers and managers to improve
+                internal processes, integrating machine learning models to
+                automate data processing and strengthen decision-making.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="text-sm text-gray-500 bg-slate-800 px-3 py-1 rounded">
+                  React
+                </span>
+                <span className="text-sm text-gray-500 bg-slate-800 px-3 py-1 rounded">
+                  Next.js
+                </span>
+                <span className="text-sm text-gray-500 bg-slate-800 px-3 py-1 rounded">
+                  Node.js
+                </span>
+                <span className="text-sm text-gray-500 bg-slate-800 px-3 py-1 rounded">
+                  TypeScript
+                </span>
+                <span className="text-sm text-gray-500 bg-slate-800 px-3 py-1 rounded">
+                  AWS
+                </span>
+              </div>
+            </div>
+
             <div className="border-l-4 border-orange-500 pl-10">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
                 <h3 className="text-white text-3xl font-display font-bold">
                   Software Engineer
                 </h3>
                 <span className="text-orange-500 font-medium text-xl">
-                  Jan 2025 - Present
+                  Jan 2025 - Mar 2026
                 </span>
               </div>
               <h4 className="text-gray-300 text-2xl mb-4">

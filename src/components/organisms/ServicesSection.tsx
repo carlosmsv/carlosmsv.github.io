@@ -46,9 +46,9 @@ const serviceContent = {
     description:
       "Integrating cutting-edge AI technologies into web applications. Experience with machine learning models, natural language processing, AI-powered features, and creating intelligent solutions that enhance user experiences and business outcomes.",
     stats: [
-      { value: "5+", label: "AI Projects" },
+      { value: "6+", label: "AI Projects" },
       { value: "10+", label: "AI Features Built" },
-      { value: "3+", label: "AI Models Integrated" },
+      { value: "4+", label: "AI Models Integrated" },
     ],
   },
 };
