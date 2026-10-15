@@ -50,7 +50,7 @@ export default function AboutPage() {
                   <img
                     src="/about-me.png"
                     alt="Carlos Viana"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
               </div>
