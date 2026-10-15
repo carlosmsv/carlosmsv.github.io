@@ -11,6 +11,8 @@ export default function HeroSection() {
     "Python",
     "Tailwind CSS",
     "AWS",
+    "LLMs",
+    "AI Agents",
   ];
 
   return (
