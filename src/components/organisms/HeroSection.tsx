@@ -134,7 +134,7 @@ export default function HeroSection() {
               <img
                 src="/me.png"
                 alt="Carlos Viana"
-                className="w-full max-h-[600px] object-cover group-hover:scale-110 transition-transform duration-700"
+                className="w-full max-h-[520px] object-cover group-hover:scale-110 transition-transform duration-700"
               />
             </div>
 
